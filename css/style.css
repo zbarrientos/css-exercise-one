@@ -4,7 +4,8 @@ body {
   font-size: 14px;
 }
 
-/* These are the styles for the navigation section */
+/* These are the styles for the overlaying text:
+"this example shoudl span the whole page" */
 
 nav {
     background color: yellow;
@@ -19,8 +20,6 @@ section {
   width: 100%;
 }
 
-/* This is the style for the overlaying text:
-"this example should span the whole page"*/
 
 h1 {
   font-family: sans-serif;
@@ -38,6 +37,13 @@ the .example styles the text and the .element styles the background */
 
 .element {
   background-color: green;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.background-color {
+  background-color: blue;
   height: 100px;
   margin: 10px 0;
   width: 100%;
